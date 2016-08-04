@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test d'image en plein écran</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div id="block-level" style="text-align:center; color:#FFF;  margin-top: 50vh; transform: translateY(-50%); height:400px;">
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="./js/fullscreen.js"></script>
+    <script>
+        $("#block-level").backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
+    </script>
+    <!-- END JS -->
+</body>
+</html>
