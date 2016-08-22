@@ -1,5 +1,6 @@
 # fullscreen_background
 Jquery : Image de fond en plein écran
 
-## Une modification depuis GitHub
-une modif
+## Plugin permettant l'affichage en plein écran d'image sur window ou sur un block specifique
+
+
